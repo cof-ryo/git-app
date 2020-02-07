@@ -1,3 +1,6 @@
 class Article < ApplicationRecord
-  validates :title, presence: true
+<<<<<<< Updated upstream
+=======
+  validates_presence_of(:title)
+>>>>>>> Stashed changes
 end
